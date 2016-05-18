@@ -1,10 +1,10 @@
-## Ruby QuickStart *Bootcamp*
+# Ruby QuickStart *Bootcamp*
 
 ---
 
 ## Please feel free to interrupt and ask questions!
 
-*Pulled from the Ruby Quickstart*
+*Examples pulled from the Ruby Quickstart*
 https://www.ruby-lang.org/en/documentation/quickstart/
 
 *Getting more help*
@@ -12,13 +12,44 @@ http://apidock.com/ruby
 
 ---
 
-## Quick introduction
+## yak shaving
+
+^No not the literal shaving of yaks. Who knows what I'm referring to when I say yak shaving?
+
+---
+
+> Any apparently useless activity which, by allowing you to overcome intermediate difficulties, allows you to solve a larger problem.
+
+![right fit](http://www.ruthmalan.com/Journal/Images/2013/August/yakShaving.jpg)
+
+---
+
+![fit](aava_imnavaitcreek_tvexport_plotmap - Google Sheets 2016-05-18 09-42-28.png)
+
+---
+
+![fit](AAVA Plot locations 2016-05-18 09-38-40.png)
+
+---
+
+How would you do that?
+
+---
+
+# I cheat
+
+![fit](Monosnap 2016-05-18 10-00-24.png)
+
+
+---
+
+# Quick introduction to ruby
 
 Ruby comes with a program that you can use to run code "on the fly".  It's called `irb` and stands for *Interactive Ruby*
 
-If you're using *Windows* open *Interactive Ruby* from the ruby section of the start menu.
+* If you're using *Windows* open *Interactive Ruby* from the ruby section of the start menu.
 
-If you're using *Mac* or *Linux* open a terminal and type `irb`
+* If you're using *Mac* or *Linux* open a terminal and type `irb`
 
 ---
 
@@ -52,7 +83,7 @@ If you're using *Mac* or *Linux* open a terminal and type `irb`
 
 ---
 
-### Breaking it down -
+### Breaking it down
 
 *Math*.sqrt(9)
 
@@ -63,13 +94,13 @@ If you're using *Mac* or *Linux* open a terminal and type `irb`
 ### Breaking it down
 Math*.*sqrt(9)
 
-*Dot (.)* is how you identify the receiver of a message.  The message in this case is `sqrt(9)``, which means call the method `sqrt` (short for square root) with the parameter of 9
+*Dot (.)* is how you identify the receiver of a message.  The message in this case is `sqrt(9)`, which means call the method `sqrt` (short for square root) with the parameter of 9
 
 ---
 
 ### Breaking it down
 
-*The result* of this is the value 3.0, notice it's not just 3.
+*The result* of this is the value 3.0
 
 ---
 
@@ -102,7 +133,7 @@ Hello World
 
 ---
 
-## Making it our own method
+## Making our own method
 
 ```ruby
 def hi
@@ -122,7 +153,7 @@ Adding a parameter to the method
 def hi(name)
   puts "Hello #{name}!"
 end
-hi("Will")
+hi "Will"
 hi # error!
 ```
 
